@@ -24,7 +24,7 @@ constant: ROW_FILTER {
 
 application: data-portal {
   label: "Data Portal"
-  file: "data-portal.js"
+  file: "http://localhost:8081/dist/data-portal.js"
 
   entitlements: {
     use_embeds: yes
