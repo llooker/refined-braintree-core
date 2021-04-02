@@ -4,12 +4,12 @@ project_name: "marketplace_braintree"
 
 constant: DATASET_NAME {
   value: "braintree"
-  export: override_optional
+  export: override_required
 }
 
 constant: CONNECTION_NAME {
   value: "brick-layer"
-  export: override_optional
+  export: override_required
 }
 
 constant: CONFIG_PROJECT_NAME {
