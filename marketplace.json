@@ -17,7 +17,7 @@
   },
   "models": [
     {
-      "name": "marketplace_braintree",
+      "name": "braintree_block_core",
       "connection_constant": "CONNECTION_NAME"
     }
   ]
