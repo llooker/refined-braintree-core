@@ -13,23 +13,12 @@
     },
     "DATASET_NAME": {
       "label": "Braintree Dataset Name"
-    },
-    "CONFIG_PROJECT_NAME": {
-      "label": "Config Project Name"
     }
   },
   "models": [
     {
       "name": "marketplace_braintree",
       "connection_constant": "CONNECTION_NAME"
-    }
-  ],
-  "auxiliary_projects": [
-    {
-      "git_uri": "git://github.com/llooker/refined-braintree-config.git",
-      "git_ref": "3137fa3cca8c4a03f92f3b3892d95902082c4fdc",
-      "label": "Braintree Config",
-      "constant_name": "CONFIG_PROJECT_NAME"
     }
   ]
 }
